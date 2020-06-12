@@ -60,11 +60,6 @@
 				BDAE57BB2493809D00E85253 /* Controller */,
 				BDAE57BA2493809700E85253 /* View */,
 				BDAE57B92493808F00E85253 /* Model */,
-				BDAE57A92493806F00E85253 /* ViewController.swift */,
-				BDAE57AB2493806F00E85253 /* Main.storyboard */,
-				BDAE57AE2493807E00E85253 /* Assets.xcassets */,
-				BDAE57B02493807E00E85253 /* LaunchScreen.storyboard */,
-				BDAE57B32493807E00E85253 /* Info.plist */,
 			);
 			path = Ud_API_meteo;
 			sourceTree = "<group>";
@@ -79,6 +74,7 @@
 		BDAE57BA2493809700E85253 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BDAE57AB2493806F00E85253 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -86,6 +82,7 @@
 		BDAE57BB2493809D00E85253 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDAE57A92493806F00E85253 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -95,6 +92,9 @@
 			children = (
 				BDAE57A52493806F00E85253 /* AppDelegate.swift */,
 				BDAE57A72493806F00E85253 /* SceneDelegate.swift */,
+				BDAE57AE2493807E00E85253 /* Assets.xcassets */,
+				BDAE57B02493807E00E85253 /* LaunchScreen.storyboard */,
+				BDAE57B32493807E00E85253 /* Info.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
