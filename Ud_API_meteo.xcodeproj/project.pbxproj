@@ -56,8 +56,10 @@
 		BDAE57A42493806F00E85253 /* Ud_API_meteo */ = {
 			isa = PBXGroup;
 			children = (
-				BDAE57A52493806F00E85253 /* AppDelegate.swift */,
-				BDAE57A72493806F00E85253 /* SceneDelegate.swift */,
+				BDAE57BC249380A200E85253 /* Supporting files */,
+				BDAE57BB2493809D00E85253 /* Controller */,
+				BDAE57BA2493809700E85253 /* View */,
+				BDAE57B92493808F00E85253 /* Model */,
 				BDAE57A92493806F00E85253 /* ViewController.swift */,
 				BDAE57AB2493806F00E85253 /* Main.storyboard */,
 				BDAE57AE2493807E00E85253 /* Assets.xcassets */,
@@ -65,6 +67,36 @@
 				BDAE57B32493807E00E85253 /* Info.plist */,
 			);
 			path = Ud_API_meteo;
+			sourceTree = "<group>";
+		};
+		BDAE57B92493808F00E85253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDAE57BA2493809700E85253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BDAE57BB2493809D00E85253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BDAE57BC249380A200E85253 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				BDAE57A52493806F00E85253 /* AppDelegate.swift */,
+				BDAE57A72493806F00E85253 /* SceneDelegate.swift */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
